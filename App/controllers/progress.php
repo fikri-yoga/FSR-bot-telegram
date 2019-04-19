@@ -2,7 +2,7 @@
 
 class progress extends Controller{
     private $incomingData = [];
-    private $jumlah;
+    private count;
 
     public function index($data)
     {
